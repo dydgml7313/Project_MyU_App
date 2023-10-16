@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="#ffffff"
     android:theme="@style/ThemeOverlay.Project_MyU.FullscreenContainer"
-    tools:context=".Login">
+    tools:context=".LoginActivity">
 
 
    <LinearLayout
@@ -72,7 +72,7 @@
              android:textStyle="bold" />
 
          <androidx.appcompat.widget.AppCompatButton
-             android:id="@+id/registerbutton"
+             android:id="@+id/reg_button"
              android:layout_width="wrap_content"
              android:layout_height="35dp"
              android:layout_marginLeft="35dp"
