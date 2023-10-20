@@ -1,7 +1,16 @@
 # Project_MyU_App
+---
+Android Studio version
+Android Studio Giraffe | 2022.3.1 Patch 2
+Runtime version: 17.0.6+0-b2043.56-10027231 amd64
+VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
+Windows 11 10.0
+
+
+
+
 
 git 사용법
-
 
 Git 기본 명령어
 git status : 현재 상태 확인
