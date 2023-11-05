@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="#ffffff"
     android:theme="@style/ThemeOverlay.Project_MyU.FullscreenContainer"
-    tools:context=".Login">
+    tools:context=".LoginActivity">
 
 
    <LinearLayout
@@ -51,31 +51,50 @@
           android:hint="   Password"
           android:inputType="textPassword"/>
 
-   <GridLayout
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"
-       android:layout_marginTop="10dp"
-       android:layout_marginBottom="20dp"
-       android:layout_marginLeft="65dp"
-       android:layout_marginRight="65dp"
-       android:orientation="horizontal">
-
-      <androidx.appcompat.widget.AppCompatButton
-         android:id="@+id/loginbtn"
-          android:layout_width="wrap_content"
-          android:layout_height="40dp"
-          android:layout_gravity=""/>
-
-      <androidx.appcompat.widget.AppCompatButton
-          android:id="@+id/registerbtn"
-          android:layout_width="wrap_content"
-          android:layout_height="40dp"
-          android:layout_row="0"
-          android:layout_column="2"
-          android:layout_gravity="" />
+      <GridLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="65dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginRight="65dp"
+          android:layout_marginBottom="20dp"
+          android:orientation="horizontal">
 
 
-   </GridLayout>
+         <androidx.appcompat.widget.AppCompatButton
+             android:id="@+id/loginbutton"
+             android:layout_width="wrap_content"
+             android:layout_height="35dp"
+             android:background="@drawable/defaultbtn"
+             android:text="로그인"
+             android:textColor="@color/white"
+             android:textSize="16sp"
+             android:textStyle="bold" />
+
+         <androidx.appcompat.widget.AppCompatButton
+             android:id="@+id/reg_button"
+             android:layout_width="wrap_content"
+             android:layout_height="35dp"
+             android:layout_marginLeft="35dp"
+             android:background="@drawable/defaultbtn"
+             android:text="회원가입"
+             android:textColor="@color/white"
+             android:textSize="16sp"
+             android:textStyle="bold" />
+
+      </GridLayout>
+
+      <TextView
+         android:id="@+id/teamName"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+         android:layout_marginTop="240dp"
+         android:textAlignment="center"
+         android:layout_gravity="center_horizontal"
+         android:text=" @모태솔로"
+         android:textColor="@color/light_purple"
+         android:textSize="18dp"
+         android:textStyle="bold"/>
 
    </LinearLayout>
 
